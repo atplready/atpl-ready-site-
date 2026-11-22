@@ -71,5 +71,26 @@
       "pages": 2
     }
   ],
-  "notes": "Original PDFs deliberately NOT committed to public repo; English versions and quality checks pending; sales not enabled."
+  "notes": "Original PDFs deliberately NOT committed to public repo; English versions and quality checks pending; sales not enabled.",
+  "english_translation_status": {
+    "status": "drafts_prepared_not_reviewed",
+    "draft_subject_codes": [
+      "021",
+      "022",
+      "031",
+      "032",
+      "033",
+      "040",
+      "050",
+      "061",
+      "062",
+      "070",
+      "081",
+      "090"
+    ],
+    "pending_subject_codes": [
+      "010"
+    ],
+    "notice": "Draft PDFs retained outside this public repository; do not offer for sale until technical and legal review."
+  }
 }
