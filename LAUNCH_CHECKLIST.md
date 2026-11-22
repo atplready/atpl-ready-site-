@@ -9,7 +9,7 @@ Current state: bilingual presentation website live; no payment, no PDF downloads
 
 ## Checkout & delivery
 - Connect the owner's Stripe account with explicit authorization.
-- Implement secure server-side checkout for 9 EUR (one subject), 40 EUR (five distinct subjects), and 99 EUR (13 subjects).
+- Implement secure server-side checkout for 9 EUR (one subject), 39 EUR (five distinct subjects), and 99 EUR (13 subjects).
 - Store product ID/subject selection in Stripe metadata or server-side order database; validate quantity and amount server-side.
 - Verify Stripe payment with a signed webhook, not browser-only checkout state.
 - Issue time-limited download links; do not expose paid PDFs in the public directory.
