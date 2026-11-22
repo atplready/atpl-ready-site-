@@ -1,0 +1,75 @@
+{
+  "product": "ATPL Ready — ATPL(A) EASA introductory study notes",
+  "version": "2026-11",
+  "source": "User-provided ZIP, 22 November 2026",
+  "availability": "preview_only",
+  "payment_enabled": false,
+  "subjects": [
+    {
+      "code": "010",
+      "file": "010_Air_Law.pdf",
+      "pages": 9
+    },
+    {
+      "code": "021",
+      "file": "021_Cellules_systemes_electricite_moteurs.pdf",
+      "pages": 3
+    },
+    {
+      "code": "022",
+      "file": "022_Instrumentation.pdf",
+      "pages": 2
+    },
+    {
+      "code": "031",
+      "file": "031_Masse_et_centrage.pdf",
+      "pages": 2
+    },
+    {
+      "code": "032",
+      "file": "032_Performance.pdf",
+      "pages": 2
+    },
+    {
+      "code": "033",
+      "file": "033_Preparation_suivi_vol.pdf",
+      "pages": 2
+    },
+    {
+      "code": "040",
+      "file": "040_Performance_humaine.pdf",
+      "pages": 2
+    },
+    {
+      "code": "050",
+      "file": "050_Meteorologie.pdf",
+      "pages": 2
+    },
+    {
+      "code": "061",
+      "file": "061_Navigation_generale.pdf",
+      "pages": 2
+    },
+    {
+      "code": "062",
+      "file": "062_Radionavigation.pdf",
+      "pages": 2
+    },
+    {
+      "code": "070",
+      "file": "070_Procedures_operationnelles.pdf",
+      "pages": 2
+    },
+    {
+      "code": "081",
+      "file": "081_Principes_du_vol.pdf",
+      "pages": 2
+    },
+    {
+      "code": "090",
+      "file": "090_Communications.pdf",
+      "pages": 2
+    }
+  ],
+  "notes": "Original PDFs deliberately NOT committed to public repo; English versions and quality checks pending; sales not enabled."
+}
