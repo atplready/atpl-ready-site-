@@ -1,0 +1,17 @@
+{
+  "name": "atpl-ready-payments",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Staging-only Stripe checkout scaffolding. Do not deploy live without fulfillment.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "stripe": "^20.0.0"
+  }
+}
