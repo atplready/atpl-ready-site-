@@ -1,0 +1,12 @@
+'use strict';
+const test=require('node:test');
+const assert=require('node:assert/strict');
+const {validate}=require('./server');
+const all=['010','021','022','031','032','033','040','050','061','062','070','081','090'];
+test('one subject price',()=>assert.equal(validate({pack:'one',subjects:['032'],language:'fr'}).amount,900));
+test('five subject price',()=>assert.equal(validate({pack:'five',subjects:all.slice(0,5),language:'en'}).amount,3900));
+test('complete pack price',()=>assert.equal(validate({pack:'all',subjects:all,language:'fr'}).amount,9900));
+test('reject wrong quantity',()=>assert.throws(()=>validate({pack:'five',subjects:['010'],language:'fr'})));
+test('reject duplicate subjects',()=>assert.throws(()=>validate({pack:'five',subjects:['010','010','031','032','033'],language:'fr'})));
+test('reject invalid subjects',()=>assert.throws(()=>validate({pack:'one',subjects:['999'],language:'fr'})));
+test('reject other languages',()=>assert.throws(()=>validate({pack:'one',subjects:['010'],language:'de'})));
