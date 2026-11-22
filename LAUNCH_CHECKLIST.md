@@ -8,6 +8,7 @@ Current state: bilingual presentation website live; no payment, no PDF downloads
 - Translate each PDF into English and have aviation terminology and EASA references checked before claiming English PDFs are available.
 
 ## Checkout & delivery
+- IN PROGRESS: Added standalone disabled Stripe test-backend in payments/ with server-side validation (9 EUR / 39 EUR / 99 EUR), webhook signature checking and smoke tests. Not deployed or connected to public storefront; no real payments accepted.
 - Connect the owner's Stripe account with explicit authorization.
 - Implement secure server-side checkout for 9 EUR (one subject), 39 EUR (five distinct subjects), and 99 EUR (13 subjects).
 - Store product ID/subject selection in Stripe metadata or server-side order database; validate quantity and amount server-side.
