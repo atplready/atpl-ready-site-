@@ -3,7 +3,7 @@
 Current state: bilingual presentation website live; no payment, no PDF downloads.
 
 ## Confirm source products
-- Retrieve original Pack_13_Fiches_ATPL_EASA_PPL_QCM.zip from the owner; Gmail connector currently cannot open ZIP attachments.
+- DONE: Received original Pack_13_Fiches_ATPL_EASA_PPL_QCM.zip from the owner on 22 November 2026. Verified 13 PDFs (34 pages total) plus the reading guide. Source catalog is stored in catalog/source-manifest.json; the paid PDFs are not in this public repository.
 - Inspect PDF contents and establish exact subject-to-PDF mapping, versioning, corrections, and commercial quality review.
 - Translate each PDF into English and have aviation terminology and EASA references checked before claiming English PDFs are available.
 
